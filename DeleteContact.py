@@ -7,7 +7,7 @@ def DeleteLine(path):
     with open(path, "r") as data:
         listData = list(data)
     line = Debug.DeleteExistLine(listData)
-    del listData[line + 2]
+    del listData[line + 4]
     with open(path, "w") as data:
         for element in listData:
             data.write(element)

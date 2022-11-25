@@ -12,7 +12,9 @@ def CreateDataTxt():
     else:
         try:
             with open(str(path), 'w') as data:
-                data.writelines("Name,Phone number")
+                data.writelines("School students")
+                data.writelines("\n-----------------\n")
+                data.writelines("Name,Phone number,Class")
                 data.writelines("\n-----------------\n")
             return path
         except IOError:

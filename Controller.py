@@ -9,7 +9,7 @@ from SearchData import SearchContact
 
 
 def StartProgram():
-    print("Phone directory.")
+    print("Information about school students.")
     return ''
 
 
@@ -48,9 +48,9 @@ def FirstActionSelect():
 
 def ActionSelect(filePath):
     print("\nSelect an action:\n\
-        1 - Add contact;\n\
-        2 - Delete contact;\n\
-        3 - Search contact;\n\
+        1 - Add student;\n\
+        2 - Delete student;\n\
+        3 - Search student;\n\
         4 - Print directory;\n\
         5 - Export as .txt;\n\
         6 - Export as .csv;\n\
